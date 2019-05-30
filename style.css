@@ -1,0 +1,217 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+header {
+    height: 600px;
+    background-color: #2e3141;
+    background-image: linear-gradient(to top, rgba(46, 49, 55, 0.8), rgba(46, 49, 55, 0.8)), url(images/Web-PGH-Daylight-Crop.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-blend-mode: overlay;
+}
+
+.introduction {
+    font-size: 20px;
+    text-align: center;
+    font-size: 2.5rem;
+    color: #f2f2f2;
+}
+
+h1 {
+    font-size: 5em;
+    text-align: center;
+    padding-top: 10%;
+    margin-bottom: 5px;
+    color: #f2f2f2;
+}
+
+.bitmoji {
+    display: block;
+    margin: auto;
+    height: 200px;
+    margin-top: 0px;
+    background-color: none;
+}
+
+.technology {
+    display: block;
+    text-align: center;
+}
+
+.skills {
+    margin-top: 20px;
+    max-height: 40px;
+    max-width: 100%;
+    display: inline;
+}
+
+.contact-icons {
+    display: block;
+    text-align: center;
+}
+
+.email,
+.linkedin,
+.github {
+    margin: 30px 0;
+    height: 80px;
+    padding: 10px;
+}
+
+.email:hover,
+.linkedin:hover,
+.github:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: transform 0.5s;
+}
+
+.biography {
+    height: 400px;
+    background-color: #4c5c96;
+}
+
+h2 {
+    text-align: center;
+    font-size: 3em;
+    padding: 30px;
+    color: #f2f2f2;
+}
+
+.about-me {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 2.2em;
+    color: #f2f2f2;
+    background-color: #2e3141;
+    width: 30%;
+    height: 80px;
+    font-weight: 600;
+}
+
+.bio-link {
+    text-decoration: none;
+}
+
+.about-me:hover {
+    cursor: pointer;
+    transform: scale(1.03);
+    transition: transform 0.5s;
+}
+
+.projects {
+    background-color: #2e3141;
+}
+
+h3 {
+    text-align: center;
+    color: #f2f2f2;
+    padding-bottom: 15px;
+    font-size: 3rem;
+}
+
+.ramones-quiz-pic {
+    width: 80%;
+    display: block;
+    margin: auto;
+}
+
+.ramones-quiz-text {
+    color: #f2f2f2;
+    font-size: 2em;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.ramones-quiz-buttons {
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.ramones-quiz-link,
+.ramones-quiz-code {
+    width: 300px;
+    height: 80px;
+    font-size: 36px;
+    background-color: #4c5c96;
+    color: #f2f2f2;
+    margin: 10px;
+}
+
+.ramones-quiz-link:hover,
+.ramones-quiz-code:hover {
+    cursor: pointer;
+    transform: scale(1.03);
+    transition: transform 0.5s;
+}
+
+/*------------------------*/
+/*     biography page     */
+/*------------------------*/
+
+.bio-main {
+    background-color: #2e3141;
+}
+
+.insert-bio {
+    background-color: #f2f2f2;
+    margin: 20% 10%;
+}
+
+.bio-title {
+    text-align: center;
+    padding: 50px;
+    font-size: 4em;
+    color: #2e3141;
+    font-family: 'Vollkorn SC', serif;
+}
+
+.bio-text {
+    text-align: center;
+    padding: 30px;
+    color: #2e3141;
+}
+
+hr {
+    margin-left: 25%;
+    margin-right: 25%;
+    height: 12px;
+    border: 0;
+    box-shadow: inset 0 12px 12px -12px rgba(0, 0, 0, 0.5);
+}
+
+.back-btn {
+    color: #f2f2f2;
+    text-decoration: underline;
+    margin-left: 30px;
+}
+
+.back-btn:hover {
+    cursor: pointer;
+    transform: scale(1.03);
+    transition: transform 0.5s;
+}
+
+/*------------------------*/
+/*     full screen        */
+/*------------------------*/
+
+@media only screen and (min-device-width: 680px) {
+    .about-me {
+        font-size: 2.2em;
+        width: 20%;
+        height: 60px;
+        font-weight: 600;
+    }
+
+    .insert-bio {
+        margin: 5% 10%;
+    }
